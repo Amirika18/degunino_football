@@ -26,8 +26,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### Deployment
+### `docker-compose up --build` 
 
-For deployment run the following command and open in your browser `http://localhost:%PORT%` to view runnig application.\
+For deployment run the following command and open in your browser `http://localhost:%PORT%` to view runnig application.
 
-### `docker-compose up --build` to run docker container 
