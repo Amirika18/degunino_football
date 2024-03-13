@@ -1,0 +1,87 @@
+.results {
+    min-height: 427px;
+    padding: 70px;
+
+    border-radius: 30px 30px 0 0;
+    background-color: #F0F0F0;
+}
+
+.results-table {
+    margin: auto;
+    width: max-content;
+    background-color: white;
+    border-radius: 30px;
+}
+
+table.results-table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+}
+
+tr.results-table-row, tr.results-table-row-header {
+    border-bottom: 1px solid rgba(136, 136, 136, 1);
+}
+
+tr.results-table-row:last-child {
+    border-bottom: none;
+}
+
+.results-table-cell:not(:has(> input)), .results-table-cell:has(> input) {
+    max-width: 200px;
+
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+    border-left: 1px solid rgba(136, 136, 136, 1);
+}
+
+.results-table-cell:has(> input) {
+    padding: 10px;
+}
+
+.results-table-cell:not(:has(> input)) {
+    padding: 30px;
+}
+
+.results-table-cell:first-child {
+    border-left: none;
+}
+
+.result-table-cell-input {
+    padding: 30px auto;
+    max-width: 200px;
+
+    border: none;
+    background: none;
+
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.delete-button {
+    color: rgba(255, 0, 0, 0.699);
+    cursor: pointer;
+}
+
+.save-buttons, .edit-buttons {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 50px;
+}
+
+.save-button, .cancel-button, .edit-button {
+    padding: 15px;
+
+    font-size: 25px;
+    font-weight: 400;
+
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}

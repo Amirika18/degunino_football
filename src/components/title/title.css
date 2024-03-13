@@ -1,0 +1,11 @@
+.title {
+    margin: 30px 70px;
+    max-width: 600px;
+
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-wrap: wrap;
+
+    color: #FFFFFF;
+}

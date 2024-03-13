@@ -1,0 +1,54 @@
+.about {
+    padding: 70px;
+
+    border-radius: 30px 30px 0 0;
+    background-color: #F0F0F0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-info {
+    padding-right: 50px;
+    width: 60%;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    
+    margin-bottom: 70px;
+}
+
+.about-header-due-date {
+    height: max-content;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    font-size: 26px;
+
+    background-color: #D9D9D9;
+}
+
+.about-text {    
+    font-weight: 500;
+    font-size: 32px;
+    text-align: justify;
+    text-wrap: balance;
+    white-space: pre-wrap;
+    
+    color: #000000;
+}
+
+.about-photo {
+    margin: 20px auto;
+}
+
+.about-photo-img {
+    width: 700px;
+    object-fit: contain;
+}
